@@ -4,7 +4,7 @@
 
 To get started, follow these steps:
 
-#### Please open the terminal of the project and run it (Step: 1, 2, 4)
+#### Please open the terminal of the project and run it
 
 1. Install the required packages using composer by running the following command:
 
