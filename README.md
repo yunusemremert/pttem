@@ -24,4 +24,4 @@ php -S localhost:8080 -t .
 
 Feeder system path : `http://localhost:8080/feed/{:feeder}/{:format}/{:type}`
 
-Feeder file path : `http://localhost:8080/public/{:feeder}/.{:type}`
+Feeder file path : `http://localhost:8080/public/{:feeder}.{:type}`
