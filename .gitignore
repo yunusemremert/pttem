@@ -1,0 +1,9 @@
+### PhpStorm template
+
+# idea
+.idea
+
+# public folder
+public/*.json
+public/*.xml
+
