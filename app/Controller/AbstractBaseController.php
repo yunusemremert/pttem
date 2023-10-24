@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Controller;
+namespace PtteM\Controller;
 
 abstract class AbstractBaseController
 {

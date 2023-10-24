@@ -1,12 +1,9 @@
 <?php
 
-namespace App\Service\Feed;
+namespace PtteM\Service\Feed;
 
-use App\Interface\Feed\FeedInterface;
+use PtteM\Interface\Feed\FeedInterface;
 use SimpleXMLElement;
-
-require_once "app/Service/Feed/AbstractFeedService.php";
-require_once "app/Interface/Feed/FeedInterface.php";
 
 final class XmlService extends AbstractFeedService implements FeedInterface
 {

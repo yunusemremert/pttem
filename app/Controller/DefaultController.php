@@ -1,8 +1,6 @@
 <?php
 
-namespace App\Controller;
-
-require_once "app/Controller/AbstractBaseController.php";
+namespace PtteM\Controller;
 
 class DefaultController extends AbstractBaseController
 {

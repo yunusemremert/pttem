@@ -1,19 +1,13 @@
 <?php
 
-namespace App\Controller\Feed;
+namespace PtteM\Controller\Feed;
 
-use App\Controller\AbstractBaseController;
-use App\FeederList;
-use App\Constant\Feed\FeedFormatConstants;
-use App\Service\Feed\JsonService;
-use App\Service\Feed\XmlService;
+use PtteM\Constant\Feed\FeedFormatConstants;
+use PtteM\Controller\AbstractBaseController;
+use PtteM\FeederList;
+use PtteM\Service\Feed\JsonService;
+use PtteM\Service\Feed\XmlService;
 use SimpleXMLElement;
-
-require_once "app/Service/Feed/JsonService.php";
-require_once "app/Service/Feed/XmlService.php";
-require_once "app/FeederList.php";
-require_once "app/Controller/AbstractBaseController.php";
-require_once "app/Constant/Feed/FeedFormatConstants.php";
 
 class FeedController extends AbstractBaseController
 {

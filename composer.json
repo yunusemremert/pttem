@@ -1,0 +1,20 @@
+{
+  "authors": [
+    {
+      "name": "Yunus Emre MERT",
+      "email": "yunusemremert@yandex.com"
+    }
+  ],
+  "name": "yunusemremert/pttem",
+  "autoload": {
+    "psr-4": {
+      "PtteM\\": "app/"
+    }
+  },
+  "scripts": {
+    "server": "php -S localhost:8080 -t ."
+  },
+  "config": {
+    "process-timeout": 0
+  }
+}

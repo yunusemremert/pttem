@@ -1,11 +1,12 @@
 <?php
 
-namespace App\Service\Feed;
+namespace PtteM\Service\Feed;
 
 abstract class AbstractFeedService
 {
     public function getProductsData(): array
     {
+        // or database query row
         return [
             [
               'id' => 1,

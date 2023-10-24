@@ -1,19 +1,15 @@
 <?php
 
-use App\Route;
-use App\Controller\Feed\FeedController;
-use App\Controller\DefaultController;
 use Bootstrap\App;
+use PtteM\Controller\DefaultController;
+use PtteM\Controller\Feed\FeedController;
+use PtteM\Route;
 
 require_once "bootstrap/App.php";
 
 App::init();
 
-require_once "app/Route.php";
-require_once "app/Controller/DefaultController.php";
-require_once "app/Controller/Feed/FeedController.php";
-require_once "app/Service/Feed/JsonService.php";
-require_once "app/Service/Feed/XmlService.php";
+require 'vendor/autoload.php';
 
 $route = new Route();
 
@@ -28,7 +24,7 @@ $route->get('/feed/:feeder/:format/:type', function($matches) {
     $feedFormat = $matches[2];
     $feedType   = $matches[3];
 
-    $feedController = new FeedController(new \App\Service\Feed\JsonService(), new \App\Service\Feed\XmlService());
+    $feedController = new FeedController(new \PtteM\Service\Feed\JsonService(), new \PtteM\Service\Feed\XmlService());
 
     $feedController->setFeedValue($feederName, $feedFormat, $feedType);
 

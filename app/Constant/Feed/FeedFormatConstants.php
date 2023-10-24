@@ -1,6 +1,6 @@
 <?php
 
-namespace app\Constant\Feed;
+namespace PtteM\Constant\Feed;
 
 class FeedFormatConstants
 {

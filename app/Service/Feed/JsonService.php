@@ -1,11 +1,8 @@
 <?php
 
-namespace App\Service\Feed;
+namespace PtteM\Service\Feed;
 
-use App\Interface\Feed\FeedInterface;
-
-require_once "app/Service/Feed/AbstractFeedService.php";
-require_once "app/Interface/Feed/FeedInterface.php";
+use PtteM\Interface\Feed\FeedInterface;
 
 final class JsonService extends AbstractFeedService implements FeedInterface
 {

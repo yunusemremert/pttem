@@ -7,3 +7,6 @@
 public/*.json
 public/*.xml
 
+# vendor
+vendor
+
